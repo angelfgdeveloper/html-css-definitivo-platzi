@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clase CSS</title>
+
+  <!-- #1 forma -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- #2 forma -->
+  <!-- No es la mejor práctica al utilizar CSS style -->
+  <style>
+    span {
+      color: blue;
+      font-size: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+    <!-- #3 forma -->
+    <!-- Estilos embebido -->
+    <p style="color: red;">Soy un texto con color embebido</p>
+
+    <p style="color: none;">Soy un texto normal</p>
+    <p style="font-size: 30px;">Soy un texto con fuente de 30 px</p>
+    
+    <span>Soy un texto con estilo en style</span>
+    
+    <h4>Soy un subtitulo con estilos desde carpeta style.css</h4>
+
+    <p class="parrafo">Texto con estilo usando class</p>
+    <p id="texto">Texto con estilo usando ID</p>
+
+  </main>
+
+</body>
+
+</html>

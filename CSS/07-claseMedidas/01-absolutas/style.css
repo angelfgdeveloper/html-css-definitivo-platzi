@@ -1,0 +1,14 @@
+main {
+  background-color: red;
+  width: 100%;
+  /* width: 600px; Salirse de la pantalla es un overflow */
+  height: 500px;
+}
+
+p {
+  /* Medias absolutas */
+  font-size: 18px;
+
+  /* Hereda el 50% de 16px */
+  /* font-size: 50%; */
+}

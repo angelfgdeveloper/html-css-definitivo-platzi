@@ -1,0 +1,12 @@
+
+/* Padre directo o mas bien hijo directo */
+/* La etiqueta p que sea hija directa de div añadele el estilo */
+div > p {
+  color: red;
+}
+
+/* Desendiente */
+/* Todas las etiquetas que esten dentro del contenedor aplica los estilos.. */
+article p {
+  color: blue;
+}

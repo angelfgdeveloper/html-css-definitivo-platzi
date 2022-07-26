@@ -1,0 +1,6 @@
+
+/* Hermano General */
+/* Aplicar los estilos siempre y cuando existan en la misma linea */
+h2 ~ p { /* ~ tilde o signo equivalencia */
+  color: red;
+}

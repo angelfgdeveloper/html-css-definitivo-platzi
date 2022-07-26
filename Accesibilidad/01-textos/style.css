@@ -1,0 +1,21 @@
+/* Mala practica utilizar fuentes absolutas como px */
+/* h1 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+} */
+
+/* Buena practica - ejemplo, configurar en chrome el tamaño de letra en pequeño o grande */
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.8rem;
+}

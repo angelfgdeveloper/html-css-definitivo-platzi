@@ -1,0 +1,16 @@
+/* Selector por elemento */
+h4 {
+  font-size: 32px;
+  color: pink;
+}
+
+/* class -> .nombre { .. } */
+.parrafo {
+  color: red;
+}
+
+/* ID -> #nombre { .. } */
+#texto {
+  color: yellow;
+  font-size: 24px;
+}

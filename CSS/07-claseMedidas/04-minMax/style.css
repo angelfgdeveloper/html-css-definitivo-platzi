@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: purple;
+}
+
+section {
+  width: 80%;
+  min-width: 320px; /* Ya no se hára mas pequeño al reducir */
+  max-width: 500px; /* Delimitar el creciemiento */
+  /* height: 500px; */
+  min-height: 500px; /* Si tiene un overflow lo resuelve el min */
+  margin: 0 auto; /* centrar */
+  background-color: cornsilk;
+}

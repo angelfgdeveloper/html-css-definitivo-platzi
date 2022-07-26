@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-title {
+  width: 250px;
+  background-color: red;
+  border-radius: 20px;
+  padding: 30px 50px;
+  border: 2px black solid;
+  margin: 0 auto;
+  position: absolute;
+  top: -45px;
+  left: 125px;
+} 
+
+section {
+  position: relative;
+  width: 500px;
+  background-color: #ededed;
+  border-radius: 40px;
+  padding: 80px 50px;
+  border: 2px black solid;
+  margin: 100px auto;
+}

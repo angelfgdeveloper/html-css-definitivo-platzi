@@ -1,0 +1,35 @@
+.main-nav {
+  margin-top: 10px;
+  list-style: none; /* Quita el punto de la lista no ordenada */
+  padding-left: 0;
+  background-color: #13a4a4;
+}
+
+.main-nav__item {
+  display: inline;
+}
+
+.main-nav__item a {
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/* Pseudoclases */
+.main-nav__item a:hover { /* Cuando paso el mouse por el item */
+  color: blue;
+}
+
+.main-nav__item a:active { /* Cuando presiono el item */
+  color: red;
+}
+
+/* Pseudoelementos */
+.main-nav__item a::after { /* A cada item se le agrega el contenido */
+  content: " | ";
+}
+
+.main-nav__item a::before { /* A cada item se le agrega el contenido */
+  content: " | ";
+}

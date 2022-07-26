@@ -1,0 +1,7 @@
+
+/* Hermano cercano */
+/* + es todo lo que este cerca de .. */
+/* Todo lo que esta cercas de h2 y esta p aplicale la regla.. */
+h2 + p { /* Cercas de un h2 la p*/
+  color: red;
+}

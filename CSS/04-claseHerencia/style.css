@@ -1,0 +1,12 @@
+html {
+  /* 16px por default en el navegador, 
+  el 75% saca el porcentaje de los 16px, 
+  quedando en 12px, el browser, hace el proceso automatico */
+  font-size: 75%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: inherit; 
+  /* inherit, herada del padre cercano, de html osea el 75% de fuente */
+}
